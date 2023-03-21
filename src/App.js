@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CakeContainer from './components/CakeContainer';
+// import {redux} from 'redux'
+
+// const createStore= redux.createStore
+
+
+
+// const initalState = {
+//   numOfCakes:10
+// }
+
+// const BUY_CAKE = 'BUY_CAKE'
+
+// function buyCake() {
+//   return {
+//     type:BUY_CAKE,
+//     info:'First redux action'
+//   }
+// }
+
+// const reducer =(state = initalState, action) => {
+//   switch(action.type){
+//     case BUY_CAKE: return {
+//       ...state,
+//       numOfCakes:state.numOfCakes -1
+//     }
+//     default: return state
+//   }
+
+// }
+
+// const store = createStore(reducer)
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <CakeContainer />
     </div>
   );
 }
