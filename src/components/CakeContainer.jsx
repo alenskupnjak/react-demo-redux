@@ -6,11 +6,12 @@ function CakeContainer(props) {
 	return (
 		<div>
 			<h2>Num of cake - {props.numOfCakes}</h2>
-			<button onClick={props.buyCake}>Buy a cake</button>
+			<button onClick={props.buyCake}>Buy a cake 02</button>
 		</div>
 	);
 }
 
+// old solution !
 const mapStateToProps = state => {
 	return {
 		numOfCakes: state.numOfCakes,
